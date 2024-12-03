@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Cuenta numero"
+        android:id="@+id/tvCuenta"
+        android:textSize="30dp"
+        android:layout_margin="20dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Tipo"
+        android:id="@+id/tvTipo"
+        android:textSize="30dp"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="1234.45"
+        android:id="@+id/tvSaldo"
+        android:textSize="30dp"
+        android:layout_margin="20dp"/>
+
+
+
+</LinearLayout>
